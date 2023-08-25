@@ -25,18 +25,19 @@ if (현재 배열 값 + i >= 마지막 인덱스) {
 마지막 인덱스가 0이라면 true 반환
 ```
 # 5. 문제 풀이
+```java
 class Solution {
-public boolean canJump(int[] nums) {
-int last = nums.length - 1;
-for (int i = last - 1; i >= 0; i--) {
-if (i + nums[i] >= last) {
-last = i;
+  public boolean canJump(int[] nums) {
+    int last = nums.length - 1;
+    for (int i = last - 1; i >= 0; i--) {
+      if (i + nums[i] >= last) {
+      last = i;
+      }
+    }
+    return last == 0;
+  }
 }
-}
-return last == 0;
-}
-}
-​
+​```
 # 6. 개선 사항
 이번 문제는 1시간 정도 고민해도 풀리지가 않아서 solution을 참고하였다. 그리디 알고리즘을 이용해서 푸는 해답으로 참고해서 학습하고 있는데 이해가 안되는 부분이 많다. 가끔 답지를 봐도 이해 못하는 부분이 많아서 고민이다. 나의 것으로 만들기 위해서 코드 하나하나를 뜯어가면서 공부해야겠다.
 ​
