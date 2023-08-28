@@ -34,6 +34,7 @@ while (다음 노드가 null이 아닐 때까지) {
 다음 노드가 없다면 head.next는 null를 반환 할 것이고,
 순회하면 노드라면 저장된 val 값과 일치하여 true를 반환 할 것이다.
 
+
 ```java
 /**
  * Definition for singly-linked list.
