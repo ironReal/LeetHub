@@ -13,6 +13,7 @@
 pos 값은 따로 주어저지 않고 배열이 순회하는지 확인하기 위해서 head의 val 변수에 제약조건 최대치 값을 할당한다.
 노드의 next를 통해서 head 값을 다음 노드까지 진행시킨다.
 마지막 노드의 다음 노드가 null인지 아니면 순회하는 노드인지 확인해서 결과를 반환한다.
+
 # 4. 의사 코드
 ```
 while (다음 노드가 null이 아닐 때까지) {
@@ -28,9 +29,11 @@ while (다음 노드가 null이 아닐 때까지) {
 ```
 # 5. 문제 풀이
 <img width="450" alt="image" src="https://github.com/ironReal/LeetHub/assets/46087207/3c9911e3-2c21-41eb-beeb-fa918f87e4ac">
+
 만약 마지막 4번 노드까지 도달 했을때,
 다음 노드가 없다면 head.next는 null를 반환 할 것이고,
 순회하면 노드라면 저장된 val 값과 일치하여 true를 반환 할 것이다.
+
 ```java
 /**
  * Definition for singly-linked list.
