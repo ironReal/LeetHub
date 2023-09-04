@@ -105,3 +105,5 @@ class Solution {
     }
 }
 ```
+<img width="567" alt="image" src="https://github.com/ironReal/LeetHub/assets/46087207/9abe9ce7-98e4-4aaa-9b93-9b552dd93582">
+
