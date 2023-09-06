@@ -4,11 +4,13 @@
 ## 2.1 Example
 **Example 1:**
 
+![image](https://github.com/ironReal/LeetHub/assets/46087207/25a51a23-5286-4dc7-97bc-e0d8984c7bca)
 Input: root = [4,2,6,1,3]
 Output: 1
 
 **Example 2:**
 
+![image](https://github.com/ironReal/LeetHub/assets/46087207/084c1658-f7f3-4fca-9330-1a8d68dd0bf2)
 Input: root = [1,0,48,null,null,12,49]
 Output: 1
 
